@@ -18,7 +18,7 @@ import java.util.Arrays;
  *
  */
 
-public class TwoSum_1 {
+public class Solution_1 {
   private static int[] twoSum(int[] nums, int target) {
     int max = 4095;
     int[] res = new int[max + 1];

@@ -12,7 +12,7 @@ package medium;
  * 输入: [1,8,6,2,5,4,8,3,7]
  * 输出: 49
  */
-public class ContainerWithMostWater_11 {
+public class Solution_11 {
   public int maxArea(int[] height) {
     if(height.length == 2){
       return Math.min(height[0], height[1]);

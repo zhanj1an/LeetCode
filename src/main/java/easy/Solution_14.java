@@ -20,7 +20,7 @@ package easy;
  *
  * 所有输入只包含小写字母 a-z 。
  */
-public class LongestCommonPrefix_14 {
+public class Solution_14 {
 
   private static String longestCommonPrefix(String[] strs) {
     if (strs.length == 0) return "";

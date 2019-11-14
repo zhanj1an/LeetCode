@@ -18,7 +18,7 @@ package easy;
  * 输出: false
  * 解释: 从右向左读, 为 01 。因此它不是一个回文数。
  */
-public class PalindromeNumber_9 {
+public class Solution_9 {
 
   private static boolean isPalindrome(int x) {
     if(x < 10 && x > -1){

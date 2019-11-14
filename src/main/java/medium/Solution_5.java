@@ -13,7 +13,7 @@ package medium;
  * 输入: "cbbd"
  * 输出: "bb"
  */
-public class LongestPalindromicSubstring_5 {
+public class Solution_5 {
   public String longestPalindrome(String s) {
 
 

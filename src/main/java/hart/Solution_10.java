@@ -48,7 +48,7 @@ package hart;
  * p = "mis*is*p*."
  * 输出: false
  */
-public class RegularExpressionMatching_10 {
+public class Solution_10 {
   private static boolean isMatch(String text, String pattern) {
     boolean[][] dp = new boolean[text.length() + 1][pattern.length() + 1];
     dp[text.length()][pattern.length()] = true;

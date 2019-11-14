@@ -31,7 +31,7 @@ import java.util.Map;
  * E C   I H   N
  * T     S     G
  */
-public class ZigZagConversion_6 {
+public class Solution_6 {
   private static String convert(String s, int numRows) {
     if("".equals(s)){
       return "";

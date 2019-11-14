@@ -46,7 +46,7 @@ package medium;
  * 解释: M = 1000, CM = 900, XC = 90, IV = 4.
  *
  */
-public class IntegerToRoman_12 {
+public class Solution_12 {
   private static String intToRoman(int num) {
     StringBuilder builder = new StringBuilder();
     int[] keys = {1, 4, 5, 9, 10, 40, 50, 90, 100, 400, 500, 900, 1000};

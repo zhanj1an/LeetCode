@@ -17,7 +17,7 @@ import model.ListNode;
  * 输出：7 -> 0 -> 8
  * 原因：342 + 465 = 807
  */
-public class AddTwoNumbers_2 {
+public class Solution_2 {
 
   public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
     ListNode dummyHead = new ListNode(0);
