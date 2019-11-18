@@ -44,7 +44,7 @@ public class Solution_19 {
       temp = temp.next;
     }
 
-    ListNode temp2 = head;
+    ListNode temp2 = res;
     int count = 0;
     while (temp2.next != null){
       count++;
