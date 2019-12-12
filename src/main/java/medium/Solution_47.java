@@ -48,6 +48,6 @@ public class Solution_47 {
 
   public static void main(String[] args) {
     Solution_47 solution = new Solution_47();
-    System.out.println(solution.permuteUnique(new int[]{3, 3, 0, 3}));
+    System.out.println(solution.permuteUnique(new int[]{3, 3, 0}));
   }
 }
