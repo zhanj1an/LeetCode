@@ -15,9 +15,15 @@ package easy;
  */
 public class Solution_58 {
   public int lengthOfLastWord(String s) {
-    String[] strings = s.split(" ");
-    if (strings.length == 0)
-      return 0;
-    return strings[strings.length - 1].length();
+    s = s.trim();
+    if (s.length() == 0) return 0;
+    int count = 0;
+    for (int i = s.length() - 1; i >= 0; i--) {
+      if (s.charAt(i) == ' ') {
+        break;
+      }
+      count++;
+    }
+    return count;
   }
 }
