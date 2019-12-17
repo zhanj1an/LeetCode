@@ -50,8 +50,8 @@ public class Solution_56 {
     Solution_56 solution = new Solution_56();
     int[][] intervals = new int[][]{{1, 4}, {2, 3}};
     int[][] res = solution.merge(intervals);
-    for (int i = 0; i < res.length; i++) {
-      System.out.println(res[i][0] + " " + res[i][1]);
+    for (int[] re : res) {
+      System.out.println(re[0] + " " + re[1]);
     }
   }
 }
